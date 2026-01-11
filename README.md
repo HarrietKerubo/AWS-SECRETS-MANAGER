@@ -93,7 +93,6 @@ Once the merge conflict was resolved, I verified that the config.py file does no
 
 ## Conclusion
 
-Working through this project reinforced something I’ve seen repeatedly in real environments: most security failures around secrets aren’t caused by lack of tools, but by casual decisions made early in development. Storing credentials in code or config files feels harmless—until it isn’t. Using AWS Secrets Manager forces a different discipline. It makes you slow down and treat secrets as what they actually are: high-impact security assets. What I appreciate most about this approach is that it reduces human error by design. Access is explicit, auditable, and reversible. From a security standpoint, this is one of those quiet controls that doesn’t feel dramatic, but drastically changes your risk profile when something goes wrong.**
----
+Working through this project reinforced something I’ve seen repeatedly in real environments: most security failures around secrets aren’t caused by lack of tools, but by casual decisions made early in development. Storing credentials in code or config files feels harmless until it isn’t. 
 
----
+Using AWS Secrets Manager forces a different discipline. It makes you slow down and treat secrets as what they actually are: high-impact security assets. What I appreciate most about this approach is that it reduces human error by design. Access is explicit, auditable, and reversible. 
